@@ -1,0 +1,85 @@
+{
+  "username": "ozalt",
+  "exclude_repos": [
+    "ozalt"
+  ],
+  "window": "2024\u219226",
+  "user": {
+    "name": "Ozal Tahir",
+    "headline": "AI/ML Engineer",
+    "tagline": "I turn data into intelligent, production-ready systems \u2014 from model training and fine-tuning to agent workflows and the interfaces people use.",
+    "location": "Faisalabad, Pakistan",
+    "current": {
+      "role": "AI/ML Engineer at Hashlog Ventures",
+      "description": "Building data-driven and AI-enabled products end to end.",
+      "status": "LIVE"
+    },
+    "focus": [
+      {
+        "label": "APPLIED AI",
+        "description": "Building AI features that solve real problems, not demos."
+      },
+      {
+        "label": "MODEL FINE-TUNING",
+        "description": "Adapting models to domain-specific data and constraints."
+      },
+      {
+        "label": "AGENT WORKFLOWS",
+        "description": "Tool-using systems with context, memory, and failure handling."
+      },
+      {
+        "label": "EVALUATION",
+        "description": "Measuring quality and reliability before shipping."
+      }
+    ],
+    "credentials": [
+      {
+        "name": "IBM AI Engineering",
+        "issuer": "IBM"
+      },
+      {
+        "name": "Generative AI Language Modeling with Transformers",
+        "issuer": "IBM"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/ozalt",
+      "lab": "lab/",
+      "linkedin": ""
+    }
+  },
+  "projects": {
+    "evidence-lab": {
+      "order": 1,
+      "title": "Evidence Lab",
+      "summary": "An independent benchmark for retrieval systems, built to make results easy to inspect and compare.",
+      "category": "RESEARCH",
+      "demo": "lab/",
+      "demo_label": "Open explorer"
+    },
+    "EVENT-ADVISOR-REACT-PROJECT": {
+      "order": 2,
+      "title": "Event Advisor",
+      "summary": "A full-stack marketplace for venues and vendors \u2014 listings, accounts, and discovery.",
+      "category": "PRODUCT"
+    },
+    "AI-Data-Analyst-Reporter": {
+      "order": 3,
+      "title": "AI Data Analyst",
+      "summary": "A local-first tool that turns datasets and documents into readable analysis reports.",
+      "category": "TOOLING"
+    },
+    "data-generation-using-ctgan": {
+      "order": 4,
+      "title": "Synthetic Data Study",
+      "summary": "A study of synthetic data generation and how well generated data preserves real-world patterns.",
+      "category": "DATA"
+    },
+    "Machine-Learning-Models-Comparison-For-House-Prices": {
+      "order": 5,
+      "title": "House Price Models",
+      "summary": "A model comparison project focused on regression quality and interpretability.",
+      "category": "MODELING"
+    }
+  }
+}

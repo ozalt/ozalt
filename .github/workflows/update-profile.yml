@@ -1,0 +1,60 @@
+name: Refresh profile monitor
+
+# One-time setup after the first push:
+#   Settings → Pages → Build and deployment
+#   Source: Deploy from a branch
+#   Branch: main / docs
+#
+# The workflow refreshes docs/data.json, docs/index.html and the README GIF.
+# GitHub Pages rebuilds automatically from the docs/ folder on each push.
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # daily, 04:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile-monitor
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Chromium for the panel render
+        run: python -m playwright install --with-deps chromium
+
+      - name: Refresh Evidence Lab explorer
+        run: python scripts/vendor_lab.py
+
+      - name: Refresh data, page and animated panel
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build.py --render
+
+      - name: Commit refreshed files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs assets/project-monitor.gif
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh project monitor [skip ci]"
+            git push
+          fi
