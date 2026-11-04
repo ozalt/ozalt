@@ -44,7 +44,7 @@
     }
   },
   "metrics": {
-    "projects": 5,
+    "projects": 6,
     "focus": 4,
     "credentials": 2,
     "window": "2024→26"
@@ -104,10 +104,21 @@
       "demo_label": "Live demo",
       "order": 5,
       "index": 5
+    },
+    {
+      "repo": "ozalt/kaptchaocr",
+      "name": "Kaptchaocr",
+      "description": "OCR, glyph detection and slider matching in one binary. Rust CAPTCHA library and server.",
+      "category": "PROJECT",
+      "url": "https://github.com/ozalt/kaptchaocr",
+      "demo": "",
+      "demo_label": "Live demo",
+      "order": 999,
+      "index": 6
     }
   ],
   "meta": {
-    "generated_at": "2026-11-03T19:47:10+00:00",
-    "signature": "e15aa5bbfe0360f2c38a45bbc4523f97cde5b3cedc2054af91931bcebf0b778b"
+    "generated_at": "2026-11-04T12:07:32+00:00",
+    "signature": "c745961ba62306ccc507e80f0f671cb9b280389250145623958e404f23bd7046"
   }
 }
