@@ -1,7 +1,8 @@
 {
   "username": "ozalt",
   "exclude_repos": [
-    "ozalt"
+    "ozalt",
+    "EVENT-ADVISOR-REACT-PROJECT"
   ],
   "window": "2024\u219226",
   "user": {
@@ -57,12 +58,6 @@
       "demo": "lab/",
       "demo_label": "Open explorer"
     },
-    "EVENT-ADVISOR-REACT-PROJECT": {
-      "order": 2,
-      "title": "Event Advisor",
-      "summary": "A full-stack marketplace for venues and vendors \u2014 listings, accounts, and discovery.",
-      "category": "PRODUCT"
-    },
     "AI-Data-Analyst-Reporter": {
       "order": 3,
       "title": "AI Data Analyst",
@@ -80,6 +75,12 @@
       "title": "House Price Models",
       "summary": "A model comparison project focused on regression quality and interpretability.",
       "category": "MODELING"
+    },
+    "kaptchaocr": {
+      "order": 2,
+      "title": "Kaptcha OCR",
+      "summary": "A computer-vision toolkit for reading text CAPTCHAs, locating character boxes, and solving slider puzzles \u2014 backed by a held-out benchmark of 4,399 images.",
+      "category": "TOOLING"
     }
   }
 }
