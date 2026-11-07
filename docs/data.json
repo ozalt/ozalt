@@ -64,7 +64,7 @@
     {
       "repo": "ozalt/kaptchaocr",
       "name": "Kaptcha OCR",
-      "description": "A computer-vision toolkit for reading text CAPTCHAs, locating character boxes, and solving slider puzzles — backed by a held-out benchmark of 4,399 images.",
+      "description": "A computer-vision toolkit for reading text CAPTCHAs, detecting character boxes, and solving slider puzzles.",
       "category": "TOOLING",
       "url": "https://github.com/ozalt/kaptchaocr",
       "demo": "",
@@ -107,7 +107,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-11-07T11:04:03+00:00",
-    "signature": "d536e5be34ecf594279d7f885ddc118fdedb1907e63b511d85c51a407c8247b3"
+    "generated_at": "2026-11-07T20:44:29+00:00",
+    "signature": "5ed8ea69950e6cf6601e4b4a27015a0a8f26a9ebadbe64d87f9e6db1e8f97864"
   }
 }

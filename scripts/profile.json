@@ -79,7 +79,7 @@
     "kaptchaocr": {
       "order": 2,
       "title": "Kaptcha OCR",
-      "summary": "A computer-vision toolkit for reading text CAPTCHAs, locating character boxes, and solving slider puzzles \u2014 backed by a held-out benchmark of 4,399 images.",
+      "summary": "A computer-vision toolkit for reading text CAPTCHAs, detecting character boxes, and solving slider puzzles.",
       "category": "TOOLING"
     }
   }
