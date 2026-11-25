@@ -44,7 +44,7 @@
     }
   },
   "metrics": {
-    "projects": 5,
+    "projects": 6,
     "focus": 4,
     "credentials": 2,
     "window": "2024→26"
@@ -104,10 +104,21 @@
       "demo_label": "Live demo",
       "order": 5,
       "index": 5
+    },
+    {
+      "repo": "ozalt/urdu-asr",
+      "name": "Urdu Asr",
+      "description": "A public project — open the repository for details.",
+      "category": "PROJECT",
+      "url": "https://github.com/ozalt/urdu-asr",
+      "demo": "",
+      "demo_label": "Live demo",
+      "order": 999,
+      "index": 6
     }
   ],
   "meta": {
-    "generated_at": "2026-11-24T14:52:34+00:00",
-    "signature": "5ed8ea69950e6cf6601e4b4a27015a0a8f26a9ebadbe64d87f9e6db1e8f97864"
+    "generated_at": "2026-11-25T14:20:51+00:00",
+    "signature": "f0829b134db1aefe149e5e655d123e246b939b21e1ce942063842dc998f428f5"
   }
 }
