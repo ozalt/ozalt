@@ -108,7 +108,7 @@
     {
       "repo": "ozalt/urdu-asr",
       "name": "Urdu Asr",
-      "description": "A public project — open the repository for details.",
+      "description": "Speak Urdu, get text, offline on a laptop CPU. One small model writes either Urdu script (اردو) or Roman Urdu (Urdu in Latin letters, the way most Pakistanis actually type), chosen by a language tag.",
       "category": "PROJECT",
       "url": "https://github.com/ozalt/urdu-asr",
       "demo": "",
@@ -118,7 +118,7 @@
     }
   ],
   "meta": {
-    "generated_at": "2026-11-26T13:54:00+00:00",
-    "signature": "f0829b134db1aefe149e5e655d123e246b939b21e1ce942063842dc998f428f5"
+    "generated_at": "2026-11-27T13:51:02+00:00",
+    "signature": "138d7609ed55d932d2d57b44531f1562d16d5b3ea461cd5c644699615f3d0666"
   }
 }
