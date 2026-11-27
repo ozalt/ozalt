@@ -6,7 +6,7 @@
 
 <p>I build data-driven and AI-enabled products end to end — from model training and fine-tuning to agent workflows, automation, and the interfaces people use.</p>
 
-<p>AI/ML Engineer at <strong>Hashlog Ventures</strong> · Faisalabad, Pakistan</p>
+<p>AI/ML Engineer</p>
 
 <p>
   <a href="https://github.com/ozalt">GitHub</a> &nbsp;·&nbsp;
